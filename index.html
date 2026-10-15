@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MORPHISTO scenes</title>
+<style>
+:root { --bg: #f6f6f4; --card: #fff; --ink: #1d1d1f; --muted: #6e6e73; --line: #e2e2e0;
+        --accent: #0b63ce; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141416; --card: #1f1f22; --ink: #ececec; --muted: #9a9aa0;
+          --line: #333338; --accent: #6aa8ff; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font: 15px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width: 920px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 26px; margin: 0 0 4px; font-weight: 600; }
+.lead { color: var(--muted); margin: 0 0 28px; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+a.card { display: block; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px;
+         background: var(--card); color: inherit; text-decoration: none; }
+a.card:hover { border-color: var(--accent); }
+.card h2 { font-size: 16px; margin: 0 0 6px; font-weight: 600; overflow-wrap: anywhere; }
+.card p { margin: 0 0 10px; }
+.meta { color: var(--muted); font-size: 13px; }
+.open { color: var(--accent); font-weight: 600; font-size: 14px; margin-top: 10px; }
+.empty { color: var(--muted); }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>MORPHISTO scenes</h1>
+<p class="lead">3D views in the browser: left-drag rotates, right-drag pans, the wheel zooms;
+L lists the layers, H shows all keys. Needs a browser with WebGL2 (any current one).</p>
+<div class="grid">
+<a class="card" href="viewer/?src=../scenes/task-73-knee-front-asma&amp;title=Task%2073%20knee%20front%2C%20aSMA"><h2>Task 73 knee front, aSMA</h2><p>aSMA channel after image restoration, cropped region</p><div class="meta">924 x 952 x 925 um | volume | 0.3 MB</div><div class="meta">2026-10-15</div><div class="open">Open in 3D</div></a>
+</div>
+<footer>Volumes are shown as fitted Gaussian splats. Viewer:
+<a href="https://github.com/royerlab/luxar">luxar</a> (Royer lab).</footer>
+</main>
+</body>
+</html>

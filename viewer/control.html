@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self' ws: wss:; img-src 'self' data:; font-src 'self' data:; style-src 'self' 'unsafe-inline'"
+    />
+    <!-- No user scaling: this is a fixed menu on a plinth, and an accidental
+         pinch is pure confusion for the next visitor. -->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="dark" />
+    <title>Luxar Control Panel</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎛️</text></svg>"
+    />
+    <!-- Globals only. Everything the panel itself needs is imported by
+         `src/core/control-panel/main.ts`, matching how `index.html` works and
+         what the stylesheet-contract test expects (no <link> to src/styles). -->
+    <style>html,body{background-color:#101014;min-height:100%;margin:0}</style>
+    <script type="module" crossorigin src="./assets/control-D6NJ80-v.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/event-group-EBf2xNfn.js">
+    <link rel="stylesheet" crossorigin href="./assets/control-C2pyzxmA.css">
+    <meta name="luxar-build" content="2026.9.22 22addf6 2026-09-22T23:59:12Z" />
+  </head>
+  <body>
+  </body>
+</html>

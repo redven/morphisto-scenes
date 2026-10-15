@@ -1,0 +1,62 @@
+{
+  "attributes": {
+    "amplitude_data_range": [
+      0.0150622380897,
+      0.768443584442
+    ],
+    "amplitude_mass": 733219.688873,
+    "amplitude_mass_weighted_mean": 0.104749349725,
+    "type": "gsplats",
+    "n_splats": 4046,
+    "ndim": 3,
+    "has_colors": false,
+    "has_label_ids": false,
+    "amplitude_range": {
+      "min": 0.0150622380897,
+      "max": 1.29981613159
+    },
+    "center_bounds": {
+      "min": [
+        0.867431044579,
+        0.867280483246,
+        0.867923438549
+      ],
+      "max": [
+        923.434753418,
+        951.057678223,
+        923.851928711
+      ]
+    },
+    "ordering": "hilbert",
+    "ordering_min": [
+      0.867431044579,
+      0.867280483246,
+      0.867923438549
+    ],
+    "ordering_max": [
+      923.434753418,
+      951.057678223,
+      923.851928711
+    ],
+    "ordering_bits_per_dim": 21,
+    "chunk_size": 1170,
+    "slice_dims": [],
+    "ordering_dims": [
+      0,
+      1,
+      2
+    ],
+    "lod_stats": {
+      "lod_method": "self_energy",
+      "lod_level": 1,
+      "lod_breakpoints_kind": "equal-count",
+      "lod_n_splats": 4046,
+      "lod_cumulative_n": 8092,
+      "energy_fraction_cum": 0.960774756127
+    },
+    "truncation_radius": 2.75,
+    "content_hash": "17038900c5b5c7a9"
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

@@ -1,0 +1,24 @@
+{
+  "scenes": [
+    {
+      "name": "task-73-knee-front-asma",
+      "title": "Task 73 knee front, aSMA",
+      "description": "aSMA channel after image restoration, cropped region",
+      "published": "2026-10-15T22:49:58",
+      "source": "main_st-0-x00-y00-0-x00-y01_restored-crop.luxar.zarr",
+      "extent_um": {
+        "z": 924.301,
+        "y": 952.0,
+        "x": 924.735
+      },
+      "layers": [
+        "volume"
+      ],
+      "slabs": null,
+      "size_bytes": 285576,
+      "files": 46,
+      "luxar": "2026.09.22",
+      "content_hash": "533ea6eee81f77b8"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "attributes": {
+    "blending_mode": "max",
+    "colormap": "inferno",
+    "layer": true,
+    "truncation_radius": 2.75,
+    "amplitude_normalization_factor": 0.00553044033313,
+    "level_stats": {
+      "reference_energy": 3188927.16432
+    },
+    "opacity": 1.0,
+    "absorption": 1.0,
+    "gamma": 1.0,
+    "intensity": 1.0,
+    "offset": 0.0,
+    "type": "gsplats",
+    "n_splats": 16185,
+    "ndim": 3,
+    "has_colors": false,
+    "has_label_ids": false,
+    "amplitude_range": {
+      "min": 0.0016644912539,
+      "max": 1.29981613159
+    },
+    "amplitude_data_range": [
+      0.0016644912539,
+      1.11058747768
+    ],
+    "amplitude_mass": 2975350.9541,
+    "amplitude_mass_weighted_mean": 0.19258153084,
+    "center_bounds": {
+      "min": [
+        0.867431044579,
+        0.867280483246,
+        0.867923438549
+      ],
+      "max": [
+        923.434753418,
+        951.115661621,
+        923.866027832
+      ]
+    },
+    "ordering": "none",
+    "chunk_size": 1024,
+    "position_bounds": {
+      "min": [
+        0.867431044579,
+        0.867280483246,
+        0.867923438549
+      ],
+      "max": [
+        923.434753418,
+        951.115661621,
+        923.866027832
+      ]
+    },
+    "n_additive_sublods": 4,
+    "child_index": 0,
+    "content_hash": "0c42a4a80559559b"
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@luxar/luxar-wasm",
+  "type": "module",
+  "collaborators": [
+    "Luxar Contributors"
+  ],
+  "description": "WASM acceleration for Luxar spatial queries and nD visibility computation",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royerlab/luxar"
+  },
+  "files": [
+    "luxar_wasm_bg.wasm",
+    "luxar_wasm.js",
+    "luxar_wasm.d.ts"
+  ],
+  "main": "luxar_wasm.js",
+  "types": "luxar_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
